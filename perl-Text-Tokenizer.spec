@@ -6,7 +6,7 @@
 %define	pdir	Text
 %define	pnam	Tokenizer
 Summary:	Text::Tokenizer - Perl extension for tokenizing text(config) files
-Summary(pl):	Text::Tokenizer - rozszerzenie perla do rozk³adania plików tekstowych
+Summary(pl):	Text::Tokenizer - rozszerzenie Perla do rozk³adania plików tekstowych
 Name:		perl-Text-Tokenizer
 Version:	0.2.6
 Release:	0.1
@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Text::Tokenizer is very fast lexical analyzer, that can be used to
-process input text from file or buffer to basic tokens:
+process input text from file or buffer to basic tokens.
 
 %description -l pl
 Text::Tokenizer jest bardzo szybkim analizatorem leksykalnym, który
