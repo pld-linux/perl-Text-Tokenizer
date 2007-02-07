@@ -9,12 +9,13 @@ Summary:	Text::Tokenizer - Perl extension for tokenizing text(config) files
 Summary(pl):	Text::Tokenizer - rozszerzenie Perla do rozk³adania plików tekstowych
 Name:		perl-Text-Tokenizer
 Version:	0.4.0
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5dba654c94018936892b4f0303928bfb
+URL:		http://search.cpan.org/dist/Text-Tokenizer/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -54,5 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Text/*.pm
 %dir %{perl_vendorarch}/auto/Text/Tokenizer
 %{perl_vendorarch}/auto/Text/Tokenizer/*.bs
+%{perl_vendorarch}/auto/Text/Tokenizer/autosplit.ix
 %attr(755,root,root) %{perl_vendorarch}/auto/Text/Tokenizer/*.so
 %{_mandir}/man3/*
