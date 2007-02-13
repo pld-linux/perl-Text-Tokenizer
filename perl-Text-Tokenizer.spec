@@ -6,7 +6,7 @@
 %define	pdir	Text
 %define	pnam	Tokenizer
 Summary:	Text::Tokenizer - Perl extension for tokenizing text(config) files
-Summary(pl.UTF-8):   Text::Tokenizer - rozszerzenie Perla do rozkładania plików tekstowych
+Summary(pl.UTF-8):	Text::Tokenizer - rozszerzenie Perla do rozkładania plików tekstowych
 Name:		perl-Text-Tokenizer
 Version:	0.4.0
 Release:	2
