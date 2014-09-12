@@ -55,7 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README TODO
 %{perl_vendorarch}/Text/*.pm
 %dir %{perl_vendorarch}/auto/Text/Tokenizer
-%{perl_vendorarch}/auto/Text/Tokenizer/*.bs
 %{perl_vendorarch}/auto/Text/Tokenizer/autosplit.ix
 %attr(755,root,root) %{perl_vendorarch}/auto/Text/Tokenizer/*.so
 %{_mandir}/man3/*
