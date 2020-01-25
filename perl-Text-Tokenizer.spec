@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Tokenizer
 Summary:	Text::Tokenizer - Perl extension for tokenizing text(config) files
