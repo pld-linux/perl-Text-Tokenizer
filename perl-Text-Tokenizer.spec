@@ -14,6 +14,8 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	51ca83879abbcf223ec0940f037eb51f
+Patch0:		includes.patch
+Patch1:		prototypes.patch
 URL:		http://search.cpan.org/dist/Text-Tokenizer/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -29,6 +31,8 @@ może być użyty do przetwarzania tokenów z pliku lub bufora.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%patch -P0 -p1
+%patch -P1 -p1
 
 %build
 %{__perl} Makefile.PL \

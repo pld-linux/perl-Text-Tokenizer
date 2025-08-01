@@ -1,0 +1,10 @@
+--- Text-Tokenizer-0.4.6/tokenizer.h.orig	2012-01-25 16:45:55.000000000 +0100
++++ Text-Tokenizer-0.4.6/tokenizer.h	2025-08-02 01:49:08.350224799 +0200
+@@ -137,6 +137,7 @@
+ /* destroy whole tokenizer*/
+ tok_bool tokenizer_destroy();
+ 
++tok_id tokenizer_new_strbuf(const char *buf, unsigned int len);
+ 
+ #ifdef __cplusplus
+ }

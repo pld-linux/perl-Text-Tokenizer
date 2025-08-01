@@ -1,0 +1,10 @@
+--- Text-Tokenizer-0.4.6/lex.tokenizer_yy.c.orig	2011-11-21 10:22:02.000000000 +0100
++++ Text-Tokenizer-0.4.6/lex.tokenizer_yy.c	2025-08-02 01:47:40.922482137 +0200
+@@ -39,6 +39,7 @@
+ #include <string.h>
+ #include <errno.h>
+ #include <stdlib.h>
++#include <unistd.h>
+ 
+ /* end standard C headers. */
+ 
